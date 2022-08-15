@@ -1,10 +1,11 @@
 import React from "react";
 import UserResults from "../componets/users/UserResults";
+import UserSearch from "../componets/users/UserSearch";
 
 export default function Home() {
   return (
     <div>
-      {/* Search Compoent */}
+      <UserSearch />
       <UserResults />
     </div>
   );
