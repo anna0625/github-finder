@@ -5,7 +5,7 @@ export default function Spinner() {
   return (
     <div className="w-100 mt-20">
       <img
-        width={280}
+        width={180}
         src={ripple}
         alt="Loading..."
         className="text-center mx-auto"
