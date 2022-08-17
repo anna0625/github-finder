@@ -1,4 +1,4 @@
-import React, { startTransition, useContext } from "react";
+import React, { useContext } from "react";
 import AlertContext from "../../context/alert/AlertContext";
 
 export default function Alert() {
@@ -6,7 +6,7 @@ export default function Alert() {
 
   return (
     alert !== null && (
-      <p className="flex items-startTransition mb-4 space-x-2">
+      <p className="flex items-start mb-4 space-x-2">
         {alert.type === "error" && (
           <svg
             fill="none"
