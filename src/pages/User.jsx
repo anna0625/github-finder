@@ -57,7 +57,7 @@ export default function User() {
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 mb-8 md:gap-8">
           <div className="custom-card-image mb-6 md:mb-0">
-            <div className="rounded-lg shadow-xl card image-full">
+            <div className="rounded-lg shadow-xl card image-full bg-white">
               <figure>
                 <img src={avatar_url} alt="" />
               </figure>
@@ -130,7 +130,7 @@ export default function User() {
         </div>
         <div className="w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats">
           <div className="stat">
-            <div className="stat-figure text-secondary">
+            <div className="stat-figure text-pink-400">
               <FaUsers className="text-3xlmd:text-5xl" />
             </div>
             <div className="stat-title pr-5">Followers</div>
@@ -139,7 +139,7 @@ export default function User() {
             </div>
           </div>
           <div className="stat">
-            <div className="stat-figure text-secondary">
+            <div className="stat-figure text-yellow-200">
               <FaUserFriends className="text-3xlmd:text-5xl" />
             </div>
             <div className="stat-title pr-5">Following</div>
@@ -148,7 +148,7 @@ export default function User() {
             </div>
           </div>
           <div className="stat">
-            <div className="stat-figure text-secondary">
+            <div className="stat-figure text-accent">
               <FaCodepen className="text-3xlmd:text-5xl" />
             </div>
             <div className="stat-title pr-5">Public Repos</div>
@@ -157,7 +157,7 @@ export default function User() {
             </div>
           </div>
           <div className="stat">
-            <div className="stat-figure text-secondary">
+            <div className="stat-figure text-neutral-content">
               <FaStore className="text-3xlmd:text-5xl" />
             </div>
             <div className="stat-title pr-5">Public Gists</div>

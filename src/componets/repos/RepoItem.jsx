@@ -18,7 +18,7 @@ export default function RepoItem({ repo }) {
   } = repo;
 
   return (
-    <div className="mb-2 rounded-md card bg-gray-300 hover:bg-gray-100">
+    <div className="mb-2 rounded-md card bg-teal-600 hover:bg-gray-100">
       <div className="card-body">
         <h3 className="mb-2 text-xl font-semibold">
           <a href={html_url}>
@@ -28,7 +28,7 @@ export default function RepoItem({ repo }) {
         <p className="mb-3">{description}</p>
         <div>
           <div className="mr-2 badge badge-info badge-lg">
-            <FaEye className="mr-2" /> {watchers_count}
+            <FaEye className="mr-2 " /> {watchers_count}
           </div>
           <div className="mr-2 badge badge-success badge-lg">
             <FaStar className="mr-2" /> {stargazers_count}
