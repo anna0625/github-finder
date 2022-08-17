@@ -43,11 +43,6 @@ export default function User() {
     hireable,
   } = user;
 
-  // useEffect(() => {
-  //   getUser(params.login);
-  //   getUserRepos(params.login);
-  // }, []);
-
   if (loading) {
     return <Spinner />;
   }
