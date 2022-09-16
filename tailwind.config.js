@@ -5,6 +5,9 @@ module.exports = {
     "node_modules/daisyui/dist/**/*.js",
     "node_modules/react-daisyui/dist/**/*.js",
   ],
+  daisyui: {
+    themes: ["night"],
+  },
   theme: {
     extend: {},
   },
