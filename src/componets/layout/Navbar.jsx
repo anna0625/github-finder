@@ -13,7 +13,7 @@ Navbar.propTypes = {
 function Navbar({ title }) {
   return (
     // bg-neutral
-    <nav className="navbar mb-12 shodaw-lg text-neutral-content">
+    <nav className="navbar mb-12 shadow-lg text-neutral-content">
       <div className="container mx-auto">
         <div className="flex-none px-2 mx-2">
           <FaGithub className="inline pr-2 text-4xl" />
