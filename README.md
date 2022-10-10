@@ -6,8 +6,8 @@ The Github API is not working sometimes. So I provide the screenshots here.
 
 ## Homepage
 
-[](images/home.png)
-[](images/home-search.png)
+[home](images/home.png)
+[home-search](images/home-search.png)
 
 ## Search Results
 
